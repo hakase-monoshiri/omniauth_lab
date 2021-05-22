@@ -11,4 +11,3 @@ RSpec.describe "welcome/home", type: :view, developer_strategy: true  do
     expect(rendered).to include('<a href="/auth/github">Signing in with the GitHub strategy</a>')
   end
 end
-
